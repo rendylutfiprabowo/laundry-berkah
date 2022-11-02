@@ -1,3 +1,7 @@
+<?= $this->extend('templates/template2'); ?>
+<?= $this->section('content'); ?>
+
+
 <div class="p-4" style="margin-top:100px;">
     <form action="/update/<?= $id_pemasukan ?>" method="post">
         <div class="mb-3">
@@ -7,3 +11,4 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 <div>
+<?= $this->endsection('content'); ?>

@@ -59,24 +59,13 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Beranda</a></li>
-                            <li class="scroll-to-section"><a href="#features">Paket Layanan</a></li>
-                            <li class="scroll-to-section"><a href="#about">Tentang Kami</a></li>
-                            <li class="scroll-to-section"><a href="#services">Layanan Tambahan</a></li>
-                            <li class="scroll-to-section"><a href="#portfolio">Testimoni</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Hubungi Kami</a></li>
+                            <li class="scroll-to-section"><a href="#" class="active">Beranda</a></li>
+                            <li class="scroll-to-section"><a href="/pemasukan">Pemasukan</a></li>
+                            <li class="scroll-to-section"><a href="/inputorder">Input Order</a></li>
+                            <li class="scroll-to-section"><a href="/listorder">List Order</a></li>
+                            
                             <li class="scroll-to-section">
-                                <div class="main-blue-button"><a href="/login"><b>Masuk</b></a></div> <br>
-                                <!-- <div class="main-blue-button"><a href="/daftar"><b>Daftar</b></a></div> -->
-                                <!-- <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
-                                <li class="scroll-to-section"><a href="/paketlayanan">Paket Layanan</a></li>
-                                <li class="scroll-to-section"><a href="/tentangkami">Tentang Kami</a></li>
-                                <li class="scroll-to-section"><a href="/layanantambahan">Layanan Tambahan</a></li>
-                                <li class="scroll-to-section"><a href="/testimoni">Testimoni</a></li>
-                                <li class="scroll-to-section"><a href="/hubungikami">Hubungi Kami</a></li>
-                                <li class="scroll-to-section">
-                                <div class="main-blue-button"><a href="/masuk"><b>Masuk</b></a></div> <br> -->
-                                <!-- <div class="main-blue-button"><a href="/daftar"><b>Daftar</b></a></div> -->
+                                <div class="main-blue-button"><a href="/logout"><b>Logout</b></a></div> <br>
                             </li>
                         </ul>
                         <a class='menu-trigger'>
@@ -90,9 +79,9 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    
-        <!-- render section  -->
-        <?= $this->renderSection('content') ?>
+
+    <!-- render section  -->
+    <?= $this->renderSection('content') ?>
 
     <footer style="background-color:#32CCC4;">
         <div class="container">

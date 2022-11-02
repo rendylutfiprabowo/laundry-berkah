@@ -17,9 +17,7 @@ class PemasukanController extends BaseController
             'pemasukan' => $pemasukan
         ];
 
-        return view('templates/header', $data)
-            . view('pemasukan/list', $data)
-            . view('templates/footer');
+        return view('pemasukan/list', $data);
     }
 
     public function create()
@@ -28,9 +26,7 @@ class PemasukanController extends BaseController
             'title' => 'Create Pemasukan'
         ];
 
-        return view('templates/header', $data)
-            . view('pemasukan/create')
-            . view('templates/footer');
+        return view('pemasukan/create');
     }
 
     public function store()
@@ -58,9 +54,7 @@ class PemasukanController extends BaseController
             'title' => 'Edit Pemasukan'
         ];
 
-        return view('templates/header', $data)
-            . view('pemasukan/edit', $pemasukan)
-            . view('templates/footer');
+        return view('pemasukan/edit', $pemasukan);
     }
 
     public function update($id)

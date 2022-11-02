@@ -1,3 +1,6 @@
+<?= $this->extend('templates/template2'); ?>
+<?= $this->section('content'); ?>
+
 <div class="container" style="margin-top:100px;">
     <div class="row">
         <div class="p-4">
@@ -11,3 +14,5 @@
         </div>
     </div>
 </div>
+
+<?= $this->endsection('content'); ?>
