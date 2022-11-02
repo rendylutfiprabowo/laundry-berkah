@@ -1,4 +1,4 @@
-<div class="p-4">
+<div class="p-4" style="margin-top:100px;">
     <a href="/create" type="button" class="btn btn-primary mb-3">Tambah</a>
     <table class="table table-striped">
         <thead>
